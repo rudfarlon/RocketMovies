@@ -23,5 +23,19 @@ export const Container = styled.div`
     &:placeholder {
       color: ${({ theme }) => theme.COLORS.GRAY_300};
     }
+
   }
+  
+  > button {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+  }
+
+  /* > button svg {
+    color: ${({ theme }) => theme.COLORS.PINK};
+    font-size: 20px;
+    margin-right: 10px;
+  } */
 `;

@@ -50,4 +50,5 @@ export const Container = styled.button`
     display: flex;
     gap: 8px;
   }
+  
 `;

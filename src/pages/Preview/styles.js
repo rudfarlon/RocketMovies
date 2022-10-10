@@ -90,6 +90,8 @@ export const Container = styled.div`
       > div.tags {
         margin-top: 40px;
         margin-bottom: 40px;
+        display: flex;
+        gap: 8px; 
       }
     }
 

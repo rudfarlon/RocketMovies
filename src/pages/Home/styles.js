@@ -4,6 +4,7 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
 
+  overflow: hidden;
   display: grid;
   grid-template-rows: 116px auto;
   grid-template-areas: 
@@ -15,7 +16,7 @@ export const Container = styled.div`
     
     > div {
       width: 1200px;
-      height: 750px;
+      height: 650px;
       padding-right: 8px;
       margin: 0 auto;
       grid-area: content;
@@ -46,7 +47,11 @@ export const Container = styled.div`
 
       > div.cards {
         width: 100%;
-      
+        padding-bottom: 70px;
+
+        li {
+          list-style: none;
+        }
       }
     }
   }
